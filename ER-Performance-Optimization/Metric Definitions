@@ -1,0 +1,17 @@
+| Metric Name              | Definition / Calculation                                                                      | Purpose / Insight                                         | Data Source   |
+| ------------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------- |
+| Total_Cases              | COUNT of patient encounters in a shift/arrival hour/triage level                              | Measures volume of patients handled                       | ER_Encounters |
+| Avg_Wait_Time            | AVG(WaitTime_Mins)                                                                            | Indicates average time patients wait before being seen    | ER_Encounters |
+| Min_Wait_Time            | MIN(WaitTime_Mins)                                                                            | Shows the shortest wait time during the shift             | ER_Encounters |
+| Max_Wait_Time            | MAX(WaitTime_Mins)                                                                            | Shows the longest wait time during the shift              | ER_Encounters |
+| Avg_Staff_On_Duty        | AVG(StaffOnDuty)                                                                              | Measures average staffing level per shift                 | ER_Encounters |
+| Avg_Critical_Cases       | AVG(CriticalCases_OnShift)                                                                    | Average number of high-acuity patients per shift          | ER_Encounters |
+| Total_Walkouts           | SUM of encounters where Walkout_YN = 'Yes'                                                    | Number of patients who left without being seen            | ER_Encounters |
+| Walkout_Rate_Percent     | (Total_Walkouts / Total_Cases) * 100                                                          | Percentage of patients who left without care              | ER_Encounters |
+| Critical_Delay_Count     | COUNT of patients exceeding safe wait thresholds (Triage 1–2 > 180 mins, Triage 3 > 200 mins) | Flags high-risk patients delayed too long                 | ER_Encounters |
+| Pct_Efficient_Encounters | Percentage of encounters with WaitTime_Mins <= 150                                            | Measures operational efficiency of patient throughput     | ER_Encounters |
+| Workload_Per_Staff       | Total_Cases / Avg_Staff_On_Duty                                                               | Shows patient load per staff member per shift             | ER_Encounters |
+| Demand_For_Shift         | Total patient arrivals per shift                                                              | Captures total demand on the department                   | ER_Encounters |
+| Shift                    | Time-based shift identifier (Morning, Afternoon, Evening, Night)                              | Used to aggregate KPIs by shift                           | ER_Encounters |
+| ArrivalHour              | Hour of patient arrival                                                                       | Supports peak arrival analysis and heatmap visualizations | ER_Encounters |
+| TriageLevel              | Patient acuity level (1 = critical, 5 = low)                                                  | Used to stratify performance metrics and risk assessment  | ER_Encounters |

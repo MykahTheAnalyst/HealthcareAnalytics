@@ -68,8 +68,9 @@ These challenges result in slower clinical operations and hinder value-based car
 
 **💡 Solution:**
 The project applies a data-driven approach to identify and eliminate workflow bottlenecks across the outpatient encounter lifecycle:
-Registration → Triage → Provider Visit → Documentation → Discharge
-Key Actions:
+Registration → Triage → Provider Visit → Documentation → Discharge 
+
+**Key Actions:**
 - Designed current-state and future-state workflow diagrams to visualize inefficiencies.
 - Developed SQL queries to calculate encounter cycle time, identify rework trends, and measure compliance.
 - Defined KPI dashboards tracking:

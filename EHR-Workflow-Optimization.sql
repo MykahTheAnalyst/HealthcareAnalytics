@@ -1,4 +1,4 @@
-   PROJECT : EHR Workflow Optimization
+Project 2: EHR-Workflow-Optimization
  
 
 -- 1️⃣ Drop existing summary table if it already exists

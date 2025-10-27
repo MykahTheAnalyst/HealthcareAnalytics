@@ -1,5 +1,4 @@
-🚑 Project 1: Emergency Department (ER) Performance Optimization
-Goal: Reduce ER wait times, minimize walkouts, and optimize staffing efficiency.
+Project 1: Emergency Department (ER) Performance Optimization
 
 -- 1️⃣  Drop existing summary table if it already exists
 DROP TABLE IF EXISTS dbo.ER_Performance_Summary;

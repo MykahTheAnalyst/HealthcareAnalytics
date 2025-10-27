@@ -18,6 +18,14 @@ Each project demonstrates how data can drive operational excellence, enhance car
 ## 📂 Projects
 
 ### 1️⃣ "Emergency Department Operations Analysis: Identifying Drivers of Wait Time and Patient Walkouts"
-**Goal:** This project analyzes operational performance in a simulated Emergency Department. The goal is to identify factors contributing to long wait times and patient walkouts, using SQL and Power BI to extract insights that could guide staffing and process improvements.
+**Project Overview:** This project analyzes emergency department (ED) operational data to identify factors influencing patient wait times, staffing efficiency, and walkout rates. Using SQL, Power BI, and data storytelling techniques, the analysis demonstrates how data-driven insights can inform quality improvement and workforce planning within a healthcare setting.
+
+The dataset includes key operational variables such as shift type, triage level, staff coverage, number of critical cases, and patient walkouts. Through exploratory analysis and dashboard visualizations, the project highlights trends and correlations that can guide evidence-based decision-making for hospital operations teams.
+
+**Business Problem:** Emergency Departments face ongoing challenges with patient throughput, wait time management, and staff allocation. Long wait times and high walkout rates negatively impact both patient experience and clinical outcomes.
+This analysis explores questions such as:
+- How do staffing levels and shift patterns affect wait times?
+- Are critical case volumes correlated with operational slowdowns?
+- What patterns exist between triage level and walkout likelihood?
 
   

@@ -1,4 +1,4 @@
-| Metric Name              | Definition / Calculation                                                                      | Purpose / Insight                                         | Data Source   |
+**Metric Name:**           | Definition / Calculation                                                                      | Purpose / Insight                                         | Data Source   |
 | ------------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------- |
 | Total_Cases              | COUNT of patient encounters in a shift/arrival hour/triage level                              | Measures volume of patients handled                       | ER_Encounters |
 | Avg_Wait_Time            | AVG(WaitTime_Mins)                                                                            | Indicates average time patients wait before being seen    | ER_Encounters |

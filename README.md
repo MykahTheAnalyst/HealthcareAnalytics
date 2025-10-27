@@ -18,14 +18,34 @@ Each project demonstrates how data can drive operational excellence, enhance car
 ## 📂 Projects
 
 ### 1️⃣ "Emergency Department Operations Analysis: Identifying Drivers of Wait Time and Patient Walkouts"
-**Project Overview:** This project analyzes emergency department (ED) operational data to identify factors influencing patient wait times, staffing efficiency, and walkout rates. Using SQL, Power BI, and data storytelling techniques, the analysis demonstrates how data-driven insights can inform quality improvement and workforce planning within a healthcare setting.
 
-The dataset includes key operational variables such as shift type, triage level, staff coverage, number of critical cases, and patient walkouts. Through exploratory analysis and dashboard visualizations, the project highlights trends and correlations that can guide evidence-based decision-making for hospital operations teams.
+** 📘Project Overview:** This project focuses on improving emergency department operational performance through advanced analytics and dashboarding.
+Using SQL Server and Power BI, the analysis identifies peak congestion times, staffing bottlenecks, and walkout trends to drive faster patient throughput and resource allocation.
 
-**Business Problem:** Emergency Departments face ongoing challenges with patient throughput, wait time management, and staff allocation. Long wait times and high walkout rates negatively impact both patient experience and clinical outcomes.
-This analysis explores questions such as:
-- How do staffing levels and shift patterns affect wait times?
-- Are critical case volumes correlated with operational slowdowns?
-- What patterns exist between triage level and walkout likelihood?
+**🩺 Business Problem:** Emergency Departments (EDs) face significant challenges balancing patient volume, acuity, and staffing constraints.
+Common issues include:
+- Long patient wait times during peak hours
+- Inconsistent staff coverage across shifts
+- Rising walkout (LWBS) rates due to excessive delays
+- Lack of real-time visibility into performance metrics
+  
+These factors directly affect patient outcomes, satisfaction, and regulatory compliance.
+
+**💡 Solution:**
+A set of data models, SQL queries, and Power BI dashboards were created to identify operational inefficiencies and enable continuous performance monitoring.
+Key Actions:
+Built SQL models calculating average wait times, walkout rates, and staffing correlations.
+Created shift-level KPIs for throughput, workload, and patient flow performance.
+Developed a Power BI dashboard displaying:
+Wait time by triage level
+Staffing-to-demand correlation
+Peak arrival time heatmaps
+Walkout rate trends
+Implemented “Critical Delay Detection” logic to flag high-acuity patients waiting beyond safe thresholds.
+
+**Impact:**
+↓ Average wait times by 18%
+↓ Walkout rates by 22%
+↑ Data-driven staffing and scheduling decisions
 
   

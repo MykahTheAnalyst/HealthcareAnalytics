@@ -37,7 +37,7 @@ A set of data models, SQL queries, and Power BI dashboards were created to ident
 **Key Actions:**
 - Built SQL models calculating average wait times, walkout rates, and staffing correlations.
 - Created shift-level KPIs for throughput, workload, and patient flow performance.
--Implemented “Critical Delay Detection” logic to flag high-acuity patients waiting beyond safe thresholds.
+- Implemented “Critical Delay Detection” logic to flag high-acuity patients waiting beyond safe thresholds.
 - Developed a Power BI dashboard displaying:
   - Wait time by triage level
   - Staffing-to-demand correlation

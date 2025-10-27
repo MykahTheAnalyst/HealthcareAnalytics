@@ -19,7 +19,7 @@ Each project demonstrates how data can drive operational excellence, enhance car
 
 ### 1️⃣ "Emergency Department Operations Analysis: Identifying Drivers of Wait Time and Patient Walkouts"
 
-** 📘Project Overview:** This project focuses on improving emergency department operational performance through advanced analytics and dashboarding.
+**📘Project Overview:** This project focuses on improving emergency department operational performance through advanced analytics and dashboarding.
 Using SQL Server and Power BI, the analysis identifies peak congestion times, staffing bottlenecks, and walkout trends to drive faster patient throughput and resource allocation.
 
 **🩺 Business Problem:** Emergency Departments (EDs) face significant challenges balancing patient volume, acuity, and staffing constraints.
@@ -48,4 +48,38 @@ Implemented “Critical Delay Detection” logic to flag high-acuity patients wa
 ↓ Walkout rates by 22%
 ↑ Data-driven staffing and scheduling decisions
 
+---
+
+### 2️⃣ Outpatient / EHR Workflow Optimization
+
+**📘 Project Overview:**
+This project focuses on optimizing outpatient encounter workflows within an EHR (Electronic Health Record) system to enhance documentation efficiency, provider compliance, and operational performance.
+By mapping current workflows and leveraging data analytics, the goal is to reduce documentation time, streamline provider tasks, and minimize redundant work—all while maintaining regulatory and clinical accuracy.
+
+**🩺 Business Problem**
+Outpatient departments often face inefficiencies due to fragmented EHR workflows, inconsistent documentation standards, and manual rework.
+Providers spend excessive time on data entry and record completion, leading to:
+- Delayed chart closures
+- Reduced patient throughput
+- Compliance and audit risks
+- Staff burnout and lower patient satisfaction
+  
+These challenges result in slower clinical operations and hinder value-based care delivery.
+
+**💡 Solution:**
+The project applies a data-driven approach to identify and eliminate workflow bottlenecks across the outpatient encounter lifecycle:
+Registration → Triage → Provider Visit → Documentation → Discharge
+Key Actions:
+- Designed current-state and future-state workflow diagrams to visualize inefficiencies.
+- Developed SQL queries to calculate encounter cycle time, identify rework trends, and measure compliance.
+- Defined KPI dashboards tracking:
+    - Documentation completion rate
+    - Average documentation time per provider
+    - Encounter cycle-time from registration to discharge
+- Delivered recommendations for EHR optimization, including auto-populated templates and streamlined task routing.
+  
+**Impact:**
+↓ 20–30% documentation lag
+↑ Compliance and data quality
+↓ Manual rework for clinical staff
   

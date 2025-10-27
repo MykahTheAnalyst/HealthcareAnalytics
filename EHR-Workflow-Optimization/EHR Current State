@@ -1,0 +1,25 @@
+Patient Check-In
+    ↓
+Front Desk Registration
+    - Manual data entry of demographics & insurance
+    - Paper-based consent forms
+    ↓
+Nurse / MA Triage
+    - Manually enter vitals and chief complaint
+    - Redundant data fields across modules
+    ↓
+Provider Encounter
+    - Manual note-taking during encounter
+    - Limited EHR templates or smart phrases
+    ↓
+Documentation & Order Entry
+    - Separate order entry screen (not integrated)
+    - Manual problem list and diagnosis updates
+    ↓
+Billing & Coding Review
+    - Manual coding review post-visit
+    - Frequent rework due to incomplete documentation
+    ↓
+Discharge & Follow-Up
+    - Printed discharge summary
+    - Follow-up scheduling requires separate system

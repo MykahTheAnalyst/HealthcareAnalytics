@@ -33,15 +33,16 @@ These factors directly affect patient outcomes, satisfaction, and regulatory com
 
 **💡 Solution:**
 A set of data models, SQL queries, and Power BI dashboards were created to identify operational inefficiencies and enable continuous performance monitoring.
-Key Actions:
-Built SQL models calculating average wait times, walkout rates, and staffing correlations.
-Created shift-level KPIs for throughput, workload, and patient flow performance.
-Developed a Power BI dashboard displaying:
-Wait time by triage level
-Staffing-to-demand correlation
-Peak arrival time heatmaps
-Walkout rate trends
-Implemented “Critical Delay Detection” logic to flag high-acuity patients waiting beyond safe thresholds.
+
+**Key Actions:**
+- Built SQL models calculating average wait times, walkout rates, and staffing correlations.
+- Created shift-level KPIs for throughput, workload, and patient flow performance.
+-Implemented “Critical Delay Detection” logic to flag high-acuity patients waiting beyond safe thresholds.
+- Developed a Power BI dashboard displaying:
+  - Wait time by triage level
+  - Staffing-to-demand correlation
+  - Peak arrival time heatmaps
+  - Walkout rate trends
 
 **Impact:**
 ↓ Average wait times by 18%
@@ -73,11 +74,11 @@ Registration → Triage → Provider Visit → Documentation → Discharge
 **Key Actions:**
 - Designed current-state and future-state workflow diagrams to visualize inefficiencies.
 - Developed SQL queries to calculate encounter cycle time, identify rework trends, and measure compliance.
+- Delivered recommendations for EHR optimization, including auto-populated templates and streamlined task routing.
 - Defined KPI dashboards tracking:
     - Documentation completion rate
     - Average documentation time per provider
     - Encounter cycle-time from registration to discharge
-- Delivered recommendations for EHR optimization, including auto-populated templates and streamlined task routing.
   
 **Impact:**
 ↓ 20–30% documentation lag

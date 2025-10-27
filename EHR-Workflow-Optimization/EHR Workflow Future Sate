@@ -1,0 +1,26 @@
+
+Patient Check-In
+    ↓
+Digital Registration Portal
+    - Pre-filled patient data via EHR integration
+    - E-signature for consent forms
+    ↓
+Automated Triage Capture
+    - Nurse/MA uses tablet for vitals directly synced to EHR
+    - Standardized triage templates reduce variation
+    ↓
+Provider Encounter
+    - Smart templates & AI transcription assist note-taking
+    - Clinical decision support prompts for missing fields
+    ↓
+Integrated Documentation & Order Entry
+    - Single-screen workflow for notes, orders, and diagnosis
+    - Auto-coding recommendations based on entries
+    ↓
+Automated Compliance Check
+    - Real-time validation of documentation completeness
+    - Flags missing diagnosis codes or signatures
+    ↓
+Discharge & Follow-Up Automation
+    - Auto-generated digital discharge summary
+    - Follow-up scheduling embedded in same workflow

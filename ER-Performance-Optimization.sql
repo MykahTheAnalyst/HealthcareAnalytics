@@ -1,4 +1,4 @@
-🚑 Project 2: Emergency Department (ER) Performance Optimization
+🚑 Project 1: Emergency Department (ER) Performance Optimization
 Goal: Reduce ER wait times, minimize walkouts, and optimize staffing efficiency.
 
 /* =============================================

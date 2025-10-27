@@ -45,7 +45,7 @@ ORDER BY Avg_Wait_Time DESC;
 
 /* =============================================
    Query 4: KPI Dashboard View
-   Purpose: Generate summary for Power BI / Tableau integration
+   Purpose: Generate summary for Power BI 
    ============================================= */
 
 CREATE OR ALTER VIEW vw_ER_Performance AS

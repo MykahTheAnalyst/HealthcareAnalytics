@@ -9,7 +9,7 @@ Hi there! I’m a Operations Analyst with a passion for transforming complex dat
 
 This portfolio showcases end-to-end analytics and optimization projects in the healthcare data and systems domain.
 
-It integrates technical expertise (SQL, Tableau, Power BI, AI-powered analytics) with healthcare domain knowledge (EMR/EHR workflows, compliance, and process improvement).
+It integrates technical expertise (SQL, Excel, Power BI) with healthcare domain knowledge (EMR/EHR workflows, compliance, and process improvement).
 
 Each project demonstrates how data can drive operational excellence, enhance care delivery, and support informed decision-making across healthcare organizations.
 

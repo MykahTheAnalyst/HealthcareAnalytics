@@ -27,7 +27,6 @@ Common issues include:
 - Long patient wait times during peak hours
 - Inconsistent staff coverage across shifts
 - Rising walkout (LWBS) rates due to excessive delays
-- Lack of real-time visibility into performance metrics
   
 These factors directly affect patient outcomes, satisfaction, and regulatory compliance.
 
@@ -41,7 +40,7 @@ A set of data models, SQL queries, and Power BI dashboards were created to ident
 - Developed a Power BI dashboard displaying:
   - Wait time by triage level
   - Staffing-to-demand correlation
-  - Peak arrival time heatmaps
+  - Peak arrival times
   - Walkout rate trends
 
 **Impact:**

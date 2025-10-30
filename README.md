@@ -6,7 +6,7 @@
 
 ## 📌 Introduction 
 
-👋 Hi, I’m Mykah
+👋 Hi, I’m Mykah.
 I’m an Operations Analyst passionate about transforming complex data into actionable insights that improve efficiency, performance, and strategic decision-making.
 With hands-on experience in data analytics, process improvement, and project coordination across healthcare and financial operations, I specialize in turning real-world problems into data-driven solutions that drive measurable business impact.
 

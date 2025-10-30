@@ -5,7 +5,7 @@
 ---
 
 ## 📌 Introduction 
-Hi there! I’m a Operations Analyst with a passion for transforming complex data into actionable insights that improve patient care, operational efficiency, and organizational outcomes. With hands-on experience in data analytics, process improvement, and stakeholder collaboration across healthcare and benefits administration environments, I specialize in turning real-world problems into data-driven solutions.
+Hi there! I’m a Operations Analyst with a passion for transforming complex data into actionable insights that improve patient care, operational efficiency, and organizational outcomes. With hands-on experience in data analytics, process improvement, and stakeholder collaboration across healthcare and financial benefits administration environments, I specialize in turning real-world problems into data-driven solutions.
 
 This portfolio showcases end-to-end analytics and optimization projects in the healthcare data and systems domain.
 

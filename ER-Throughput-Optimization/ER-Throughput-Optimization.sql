@@ -1,4 +1,4 @@
-Project 1: Emergency Department (ER) Performance Optimization
+-- Project 1: Emergency Department (ER) Performance Optimization
 
 -- 1️⃣ Drop existing summary table if it exists
 DROP TABLE IF EXISTS dbo.ER_Performance_Summary;
@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS dbo.ER_Performance_Summary;
 -- 2️⃣ Create a unified summary table
 SELECT
     Shift,
-    DATEPART(HOUR, ArrivalTime) AS ArrivalHour, 
+    FORMAT(ArrivalTime, 'h:mm tt') AS ArrivalTime,  -- Formats to 8:00 AM, 1:00 PM, etc.
     TriageLevel,
 
     -- Core operational KPIs
@@ -16,7 +16,7 @@ SELECT
     ROUND(MAX(WaitTime_Mins), 2) AS Max_Wait_Time,
 
     -- Staffing metrics
-    ROUND(AVG(StaffOnDuty), 2) AS Avg_Staff_On_Duty,
+    SUM(StaffOnDuty) AS Total_Staff_On_Duty,
     ROUND(AVG(CriticalCases_OnShift), 2) AS Avg_Critical_Cases,
     
     -- Walkout analytics
@@ -33,7 +33,7 @@ SELECT
     ROUND(100.0 * SUM(CASE WHEN WaitTime_Mins <= 150 THEN 1 ELSE 0 END) / COUNT(*), 2) AS Pct_Efficient_Encounters,
 
     -- Workload metric
-    ROUND(1.0 * COUNT(*) / NULLIF(AVG(StaffOnDuty),0), 2) AS Workload_Per_Staff,
+    ROUND(1.0 * COUNT(*) / NULLIF(SUM(StaffOnDuty),0), 2) AS Workload_Per_Staff,
 
     -- For staffing-to-demand correlation in Power BI
     COUNT(*) * 1.0 AS Demand_For_Shift  
@@ -42,14 +42,14 @@ INTO dbo.ER_Performance_Summary
 FROM dbo.ER_Encounters
 GROUP BY
     Shift,
-    DATEPART(HOUR, ArrivalTime),
+    ArrivalTime,
     TriageLevel
 ORDER BY
     Shift,
-    ArrivalHour,
+    ArrivalTime,
     TriageLevel;
 
 -- 3️⃣ Preview the summary table
 SELECT * 
 FROM dbo.ER_Performance_Summary
-ORDER BY Shift, ArrivalHour, TriageLevel;
+ORDER BY Shift, ArrivalTime, TriageLevel;

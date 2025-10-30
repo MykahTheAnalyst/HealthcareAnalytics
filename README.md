@@ -34,9 +34,9 @@ The emergency department struggled with long wait times, uneven staffing coverag
 - Presented findings to leadership, informing data-driven scheduling and staffing adjustments.
   
 **📈 Impact:**
-⏱️ Reduced average wait times by ~18% through targeted staffing realignment
-🚶‍♂️ Decreased walkout rates by ~22%
-📊 Improved visibility into operational performance, enabling proactive resource management
+- ⏱️ Reduced average wait times by ~18% through targeted staffing realignment
+- 🚶‍♂️ Decreased walkout rates by ~22%
+- 📊 Improved visibility into operational performance, enabling proactive resource management
 
 
 

@@ -1,0 +1,15 @@
+[Patient Arrival] 
+      ↓
+[Registration] 
+      ↓
+[Triage Assessment] 
+      ↓
+[Waiting Area / Queue] 
+      ↓
+[Provider Evaluation] 
+      ↓
+[Diagnostics / Labs (if applicable)] 
+      ↓
+[Treatment / Observation] 
+      ↓
+[Discharge or Admission]

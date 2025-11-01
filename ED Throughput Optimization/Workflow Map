@@ -1,15 +1,10 @@
-[Patient Arrival] 
-      ↓
-[Registration] 
-      ↓
-[Triage Assessment] 
-      ↓
-[Waiting Area / Queue] 
-      ↓
-[Provider Evaluation] 
-      ↓
-[Diagnostics / Labs (if applicable)] 
-      ↓
-[Treatment / Observation] 
-      ↓
-[Discharge or Admission]
++---------+       +---------+       +---------------------+       +----------+       +-----------+
+| Arrival | --->  | Triage  | --->  | Provider Evaluation | --->  | Treatment| --->  | Discharge |
+|         |       |  ⚠️     |       |        ⚠️           |       |          |       |   ⚠️      |
++---------+       +---------+       +---------------------+       +----------+       +-----------+
+     |                 |                   |                         |                   |
+     | Avg Wait: 5-15m | Avg Wait: 15-30m | Avg Wait: 20-60m         | Moderate Wait     | Avg Wait: 10-40m
+     |                 | Bottleneck due   | Bottleneck if staffing   | Diagnostics Delay | Bottleneck if staff/admin limited
+     |                 | to limited triage| not aligned with demand |                    |
+     v                 v                   v                         v                   v
+  Patient inflow --> Initial assessment --> Provider sees patient --> Diagnostics/Treatment --> Discharge completed
